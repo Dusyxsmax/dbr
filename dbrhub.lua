@@ -9,4 +9,12 @@ local Window = ArrayField:CreateWindow({
       FolderName = nil,
       FileName = "ArrayField"
 
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Tab Example", 4483362458)
+
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Interact = 'Click',
+   Callback = function()
+
+   end,
+})
