@@ -9,7 +9,7 @@ local Window = ArrayField:CreateWindow({
       FolderName = nil,
       FileName = "ArrayField"
 
-local Tab = Window:CreateTab("Tab Example", 4483362458)
+local Tab = Window:CreateTab("Tab Example")
 
 local Button = Tab:CreateButton({
    Name = "Button Example",
